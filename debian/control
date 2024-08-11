@@ -1,0 +1,15 @@
+Source: kaisen-lib64
+Priority: required
+Section: kaisen-packages
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Rules-Requires-Root: no
+Homepage: https://kaisenlinux.org
+Vcs-Git: https://gitlab.com/kaisenlinux/packages/kaisen-usrmerged.git
+Vcs-Browser: https://gitlab.com/kaisenlinux/packages/kaisen-usrmerged
+
+Package: kaisen-lib64
+Architecture: all
+Priority: required
+Description: Ensure of /lib64 has been created (required by debootstrap)
